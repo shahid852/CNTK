@@ -112,22 +112,81 @@
     <ClCompile Include="proto\onnx\onnx_repo\onnx\shape_inference\implementation.cc">
       <Filter>proto\onnx\onnx_repo\onnx\shape_inference</Filter>
     </ClCompile>
-    <ClCompile Include="proto\onnx\onnxruntime\onnxruntime\core\common\logging\capture.cc" />
-    <ClCompile Include="proto\onnx\onnxruntime\onnxruntime\core\common\logging\logging.cc" />
-    <ClCompile Include="proto\onnx\onnxruntime\onnxruntime\core\common\profiler.cc" />
-    <ClCompile Include="proto\onnx\onnxruntime\onnxruntime\core\common\status.cc" />
-    <ClCompile Include="proto\onnx\onnxruntime\onnxruntime\core\framework\tensorutils.cc" />
-    <ClCompile Include="proto\onnx\onnxruntime\onnxruntime\core\graph\function.cc" />
-    <ClCompile Include="proto\onnx\onnxruntime\onnxruntime\core\graph\graph.cc" />
-    <ClCompile Include="proto\onnx\onnxruntime\onnxruntime\core\graph\graph_transformer_mgr.cc" />
-    <ClCompile Include="proto\onnx\onnxruntime\onnxruntime\core\graph\graph_viewer.cc" />
-    <ClCompile Include="proto\onnx\onnxruntime\onnxruntime\core\graph\model.cc" />
-    <ClCompile Include="proto\onnx\onnxruntime\onnxruntime\core\graph\op.cc" />
-    <ClCompile Include="proto\onnx\onnxruntime\onnxruntime\core\graph\schema_registry.cc" />
-    <ClCompile Include="proto\onnx\onnxruntime\onnxruntime\core\platform\env.cc" />
-    <ClCompile Include="proto\onnx\onnxruntime\onnxruntime\core\platform\env_time.cc" />
-    <ClCompile Include="proto\onnx\onnxruntime\onnxruntime\core\platform\windows\env.cc" />
-    <ClCompile Include="proto\onnx\onnxruntime\onnxruntime\core\platform\windows\env_time.cc" />
+    <ClCompile Include="proto\onnx\onnxruntime\onnxruntime\core\common\logging\capture.cc">
+      <Filter>proto\onnx\onnxruntime\common\logging</Filter>
+    </ClCompile>
+    <ClCompile Include="proto\onnx\onnxruntime\onnxruntime\core\common\logging\logging.cc">
+      <Filter>proto\onnx\onnxruntime\common\logging</Filter>
+    </ClCompile>
+    <ClCompile Include="proto\onnx\onnxruntime\onnxruntime\core\common\profiler.cc">
+      <Filter>proto\onnx\onnxruntime\common</Filter>
+    </ClCompile>
+    <ClCompile Include="proto\onnx\onnxruntime\onnxruntime\core\common\status.cc">
+      <Filter>proto\onnx\onnxruntime\common</Filter>
+    </ClCompile>
+    <ClCompile Include="proto\onnx\onnxruntime\onnxruntime\core\graph\function.cc">
+      <Filter>proto\onnx\onnxruntime\graph</Filter>
+    </ClCompile>
+    <ClCompile Include="proto\onnx\onnxruntime\onnxruntime\core\graph\graph.cc">
+      <Filter>proto\onnx\onnxruntime\graph</Filter>
+    </ClCompile>
+    <ClCompile Include="proto\onnx\onnxruntime\onnxruntime\core\graph\graph_transformer_mgr.cc">
+      <Filter>proto\onnx\onnxruntime\graph</Filter>
+    </ClCompile>
+    <ClCompile Include="proto\onnx\onnxruntime\onnxruntime\core\graph\graph_viewer.cc">
+      <Filter>proto\onnx\onnxruntime\graph</Filter>
+    </ClCompile>
+    <ClCompile Include="proto\onnx\onnxruntime\onnxruntime\core\graph\model.cc">
+      <Filter>proto\onnx\onnxruntime\graph</Filter>
+    </ClCompile>
+    <ClCompile Include="proto\onnx\onnxruntime\onnxruntime\core\graph\op.cc">
+      <Filter>proto\onnx\onnxruntime\graph</Filter>
+    </ClCompile>
+    <ClCompile Include="proto\onnx\onnxruntime\onnxruntime\core\graph\schema_registry.cc">
+      <Filter>proto\onnx\onnxruntime\graph</Filter>
+    </ClCompile>
+    <ClCompile Include="proto\onnx\onnxruntime\onnxruntime\core\framework\tensorutils.cc">
+      <Filter>proto\onnx\onnxruntime\framework</Filter>
+    </ClCompile>
+    <ClCompile Include="proto\onnx\CNTKToONNX.cpp">
+      <Filter>proto\onnx</Filter>
+    </ClCompile>
+    <ClCompile Include="proto\CNTK.pb.cc.VS_wrapper.cpp">
+      <Filter>proto\onnx</Filter>
+    </ClCompile>
+    <ClCompile Include="proto\onnx\RNNHelper.cpp">
+      <Filter>proto\onnx</Filter>
+    </ClCompile>
+    <ClCompile Include="proto\onnx\Operators.cpp">
+      <Filter>proto\onnx</Filter>
+    </ClCompile>
+    <ClCompile Include="proto\onnx\ONNXToCNTK.cpp">
+      <Filter>proto\onnx</Filter>
+    </ClCompile>
+    <ClCompile Include="proto\onnx\onnx-operators-ml.pb.cc.VS_wrapper.cpp">
+      <Filter>proto\onnx</Filter>
+    </ClCompile>
+    <ClCompile Include="proto\onnx\onnx-ml.pb.cc.VS_wrapper.cpp">
+      <Filter>proto\onnx</Filter>
+    </ClCompile>
+    <ClCompile Include="proto\onnx\ONNX.cpp">
+      <Filter>proto\onnx</Filter>
+    </ClCompile>
+    <ClCompile Include="proto\onnx\onnxruntime\onnxruntime\core\platform\windows\stacktrace.cc">
+      <Filter>proto\onnx\onnxruntime\platform\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="proto\onnx\onnxruntime\onnxruntime\core\platform\env.cc">
+      <Filter>proto\onnx\onnxruntime\platform</Filter>
+    </ClCompile>
+    <ClCompile Include="proto\onnx\onnxruntime\onnxruntime\core\platform\env_time.cc">
+      <Filter>proto\onnx\onnxruntime\platform</Filter>
+    </ClCompile>
+    <ClCompile Include="proto\onnx\onnxruntime\onnxruntime\core\platform\windows\env.cc">
+      <Filter>proto\onnx\onnxruntime\platform\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="proto\onnx\onnxruntime\onnxruntime\core\platform\windows\env_time.cc">
+      <Filter>proto\onnx\onnxruntime\platform\windows</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h" />
@@ -218,46 +277,135 @@
     <ClInclude Include="proto\onnx\onnx_repo\onnx\common\model_helpers.h">
       <Filter>proto\onnx\onnx_repo\onnx\common</Filter>
     </ClInclude>
-    <ClInclude Include="proto\onnx\onnxruntime\onnxruntime\core\common\profiler.h" />
-    <ClInclude Include="proto\onnx\onnxruntime\onnxruntime\core\common\task_thread_pool.h" />
-    <ClInclude Include="proto\onnx\onnxruntime\onnxruntime\core\framework\tensorutils.h" />
-    <ClInclude Include="proto\onnx\onnxruntime\onnxruntime\core\graph\function.h" />
-    <ClInclude Include="proto\onnx\onnxruntime\onnxruntime\core\graph\function_container.h" />
-    <ClInclude Include="proto\onnx\onnxruntime\onnxruntime\core\graph\function_impl.h" />
-    <ClInclude Include="proto\onnx\onnxruntime\onnxruntime\core\graph\function_inliner.h" />
-    <ClInclude Include="proto\onnx\onnxruntime\onnxruntime\core\graph\graph_transformer_mgr.h" />
-    <ClInclude Include="proto\onnx\onnxruntime\onnxruntime\core\graph\model.h" />
-    <ClInclude Include="proto\onnx\onnxruntime\onnxruntime\core\graph\op.h" />
-    <ClInclude Include="proto\onnx\onnxruntime\onnxruntime\core\graph\record.h" />
-    <ClInclude Include="proto\onnx\onnxruntime\include\onnxruntime\core\common\code_location.h" />
-    <ClInclude Include="proto\onnx\onnxruntime\include\onnxruntime\core\common\common.h" />
-    <ClInclude Include="proto\onnx\onnxruntime\include\onnxruntime\core\common\const_pointer_container.h" />
-    <ClInclude Include="proto\onnx\onnxruntime\include\onnxruntime\core\common\exceptions.h" />
-    <ClInclude Include="proto\onnx\onnxruntime\include\onnxruntime\core\common\logging\capture.h" />
-    <ClInclude Include="proto\onnx\onnxruntime\include\onnxruntime\core\common\logging\isink.h" />
-    <ClInclude Include="proto\onnx\onnxruntime\include\onnxruntime\core\common\logging\logging.h" />
-    <ClInclude Include="proto\onnx\onnxruntime\include\onnxruntime\core\common\logging\macros.h" />
-    <ClInclude Include="proto\onnx\onnxruntime\include\onnxruntime\core\common\logging\severity.h" />
-    <ClInclude Include="proto\onnx\onnxruntime\include\onnxruntime\core\common\logging\sinks\clog_sink.h" />
-    <ClInclude Include="proto\onnx\onnxruntime\include\onnxruntime\core\common\logging\sinks\ostream_sink.h" />
-    <ClInclude Include="proto\onnx\onnxruntime\include\onnxruntime\core\common\ml_status.h" />
-    <ClInclude Include="proto\onnx\onnxruntime\include\onnxruntime\core\common\status.h" />
-    <ClInclude Include="proto\onnx\onnxruntime\include\onnxruntime\core\graph\basic_types.h" />
-    <ClInclude Include="proto\onnx\onnxruntime\include\onnxruntime\core\graph\constants.h" />
-    <ClInclude Include="proto\onnx\onnxruntime\include\onnxruntime\core\graph\graph.h" />
-    <ClInclude Include="proto\onnx\onnxruntime\include\onnxruntime\core\graph\graph_base.h" />
-    <ClInclude Include="proto\onnx\onnxruntime\include\onnxruntime\core\graph\graph_nodes.h" />
-    <ClInclude Include="proto\onnx\onnxruntime\include\onnxruntime\core\graph\graph_transformer.h" />
-    <ClInclude Include="proto\onnx\onnxruntime\include\onnxruntime\core\graph\indexed_sub_graph.h" />
-    <ClInclude Include="proto\onnx\onnxruntime\include\onnxruntime\core\graph\onnx_protobuf.h" />
-    <ClInclude Include="proto\onnx\onnxruntime\include\onnxruntime\core\graph\rewrite_rule.h" />
-    <ClInclude Include="proto\onnx\onnxruntime\include\onnxruntime\core\graph\schema_registry.h" />
-    <ClInclude Include="proto\onnx\onnxruntime\include\onnxruntime\core\inc\op_kernel_author.h" />
-    <ClInclude Include="proto\onnx\onnxruntime\include\onnxruntime\core\platform\env.h" />
-    <ClInclude Include="proto\onnx\onnxruntime\include\onnxruntime\core\platform\env_time.h" />
-    <ClInclude Include="proto\onnx\onnxruntime\onnxruntime\core\inc\op_kernel_author_helper.h" />
-    <ClInclude Include="proto\onnx\onnxruntime\onnxruntime\core\platform\context.h" />
-    <ClInclude Include="proto\onnx\onnxruntime\onnxruntime\core\platform\notification.h" />
+    <ClInclude Include="proto\onnx\onnxruntime\include\onnxruntime\core\common\common.h">
+      <Filter>proto\onnx\onnxruntime\include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\onnx\onnxruntime\include\onnxruntime\core\common\code_location.h">
+      <Filter>proto\onnx\onnxruntime\include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\onnx\onnxruntime\include\onnxruntime\core\common\const_pointer_container.h">
+      <Filter>proto\onnx\onnxruntime\include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\onnx\onnxruntime\include\onnxruntime\core\common\exceptions.h">
+      <Filter>proto\onnx\onnxruntime\include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\onnx\onnxruntime\include\onnxruntime\core\common\ml_status.h">
+      <Filter>proto\onnx\onnxruntime\include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\onnx\onnxruntime\include\onnxruntime\core\common\status.h">
+      <Filter>proto\onnx\onnxruntime\include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\onnx\onnxruntime\include\onnxruntime\core\common\logging\capture.h">
+      <Filter>proto\onnx\onnxruntime\include\common\logging</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\onnx\onnxruntime\include\onnxruntime\core\common\logging\logging.h">
+      <Filter>proto\onnx\onnxruntime\include\common\logging</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\onnx\onnxruntime\include\onnxruntime\core\common\logging\macros.h">
+      <Filter>proto\onnx\onnxruntime\include\common\logging</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\onnx\onnxruntime\include\onnxruntime\core\common\logging\severity.h">
+      <Filter>proto\onnx\onnxruntime\include\common\logging</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\onnx\onnxruntime\include\onnxruntime\core\common\logging\isink.h">
+      <Filter>proto\onnx\onnxruntime\include\common\logging</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\onnx\onnxruntime\include\onnxruntime\core\graph\basic_types.h">
+      <Filter>proto\onnx\onnxruntime\include\graph</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\onnx\onnxruntime\include\onnxruntime\core\graph\constants.h">
+      <Filter>proto\onnx\onnxruntime\include\graph</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\onnx\onnxruntime\include\onnxruntime\core\graph\graph.h">
+      <Filter>proto\onnx\onnxruntime\include\graph</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\onnx\onnxruntime\include\onnxruntime\core\graph\graph_base.h">
+      <Filter>proto\onnx\onnxruntime\include\graph</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\onnx\onnxruntime\include\onnxruntime\core\graph\graph_nodes.h">
+      <Filter>proto\onnx\onnxruntime\include\graph</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\onnx\onnxruntime\include\onnxruntime\core\graph\graph_transformer.h">
+      <Filter>proto\onnx\onnxruntime\include\graph</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\onnx\onnxruntime\include\onnxruntime\core\graph\onnx_protobuf.h">
+      <Filter>proto\onnx\onnxruntime\include\graph</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\onnx\onnxruntime\include\onnxruntime\core\graph\rewrite_rule.h">
+      <Filter>proto\onnx\onnxruntime\include\graph</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\onnx\onnxruntime\include\onnxruntime\core\graph\schema_registry.h">
+      <Filter>proto\onnx\onnxruntime\include\graph</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\onnx\onnxruntime\include\onnxruntime\core\graph\indexed_sub_graph.h">
+      <Filter>proto\onnx\onnxruntime\include\graph</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\onnx\onnxruntime\include\onnxruntime\core\inc\op_kernel_author.h">
+      <Filter>proto\onnx\onnxruntime\include\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\onnx\onnxruntime\onnxruntime\core\platform\context.h">
+      <Filter>proto\onnx\onnxruntime\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\onnx\onnxruntime\onnxruntime\core\platform\notification.h">
+      <Filter>proto\onnx\onnxruntime\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\onnx\onnxruntime\onnxruntime\core\graph\function.h">
+      <Filter>proto\onnx\onnxruntime\graph</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\onnx\onnxruntime\onnxruntime\core\graph\function_container.h">
+      <Filter>proto\onnx\onnxruntime\graph</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\onnx\onnxruntime\onnxruntime\core\graph\function_impl.h">
+      <Filter>proto\onnx\onnxruntime\graph</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\onnx\onnxruntime\onnxruntime\core\graph\function_inliner.h">
+      <Filter>proto\onnx\onnxruntime\graph</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\onnx\onnxruntime\onnxruntime\core\graph\graph_transformer_mgr.h">
+      <Filter>proto\onnx\onnxruntime\graph</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\onnx\onnxruntime\onnxruntime\core\graph\model.h">
+      <Filter>proto\onnx\onnxruntime\graph</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\onnx\onnxruntime\onnxruntime\core\graph\op.h">
+      <Filter>proto\onnx\onnxruntime\graph</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\onnx\onnxruntime\onnxruntime\core\graph\record.h">
+      <Filter>proto\onnx\onnxruntime\graph</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\onnx\onnxruntime\onnxruntime\core\common\task_thread_pool.h">
+      <Filter>proto\onnx\onnxruntime\common</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\onnx\onnxruntime\onnxruntime\core\common\profiler.h">
+      <Filter>proto\onnx\onnxruntime\common</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\onnx\onnxruntime\onnxruntime\core\framework\tensorutils.h">
+      <Filter>proto\onnx\onnxruntime\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\onnx\onnxruntime\onnxruntime\core\inc\op_kernel_author_helper.h">
+      <Filter>proto\onnx\onnxruntime\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\onnx\CNTKToONNX.h">
+      <Filter>proto\onnx</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\onnx\RNNHelper.h">
+      <Filter>proto\onnx</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\onnx\Operators.h">
+      <Filter>proto\onnx</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\onnx\ONNXToCNTK.h">
+      <Filter>proto\onnx</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\onnx\ONNX.h">
+      <Filter>proto\onnx</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\onnx\onnxruntime\onnxruntime\core\platform\env_time.h">
+      <Filter>proto\onnx\onnxruntime\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\onnx\onnxruntime\onnxruntime\core\platform\env.h">
+      <Filter>proto\onnx\onnxruntime\platform</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="API">
@@ -325,6 +473,42 @@
     </Filter>
     <Filter Include="proto\onnx\onnxruntime\include">
       <UniqueIdentifier>{45e51e13-29c8-48e4-b765-3dad6f25f52d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proto\onnx\onnxruntime\include\common">
+      <UniqueIdentifier>{6666e70d-16b9-4d52-b305-abe70ab144b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proto\onnx\onnxruntime\include\common\logging">
+      <UniqueIdentifier>{d1ad1f5d-18c6-4980-97a4-fe1819672029}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proto\onnx\onnxruntime\include\graph">
+      <UniqueIdentifier>{3f8fc63d-dbcb-4e4d-96e8-b49da7b7d5e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proto\onnx\onnxruntime\include\inc">
+      <UniqueIdentifier>{556e9414-303c-45a8-8ed3-f035458d3351}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proto\onnx\onnxruntime\include\platform">
+      <UniqueIdentifier>{babbff64-1577-4c83-a81d-9ea90ec4b931}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proto\onnx\onnxruntime\common">
+      <UniqueIdentifier>{8ac97d45-37a9-4494-a728-8041e35d20dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proto\onnx\onnxruntime\common\logging">
+      <UniqueIdentifier>{24483f0a-fe67-44dd-b1df-f5abb91dcc8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proto\onnx\onnxruntime\graph">
+      <UniqueIdentifier>{955eafd1-4d93-455f-a1a7-137b6eed969d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proto\onnx\onnxruntime\inc">
+      <UniqueIdentifier>{32268a6a-3039-4568-92b4-9a9388e324d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proto\onnx\onnxruntime\platform">
+      <UniqueIdentifier>{98847797-f8ba-4847-b382-b58e7986336d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proto\onnx\onnxruntime\framework">
+      <UniqueIdentifier>{90661e60-2fcf-4398-a8fc-62cd11bb6418}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proto\onnx\onnxruntime\platform\windows">
+      <UniqueIdentifier>{681310a9-13d1-4e99-87ea-4b342d35901e}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
