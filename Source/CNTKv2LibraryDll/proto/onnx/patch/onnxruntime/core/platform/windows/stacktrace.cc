@@ -1,7 +1,5 @@
 // Copyright (c) Microsoft Corporation. All rights reserved.
 // Licensed under the MIT License.
-#ifndef IsUWP
-
 #include "core/common/common.h"
 #include <iostream>
 #include <mutex>
@@ -14,7 +12,7 @@
 #include "gsl/span"
 
 namespace onnxruntime {
-
+#ifndef IsUWP
 namespace detail {
 class CaptureStackTrace {
  public:
@@ -147,12 +145,10 @@ std::string CaptureStackTrace::Lookup(void* address_in) const {
 #endif
 #endif
 }  // namespace detail
-}  // namespace onnxruntime
 
 #else
-namespace onnxruntime {
 std::vector<std::string> GetStackTrace() {
   return {};
 }
-}  // namespace onnxruntime
 #endif
+}  // namespace onnxruntime
