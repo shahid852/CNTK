@@ -331,6 +331,7 @@
     <ClCompile Include="Variable.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <Proto Include="proto\CNTK.proto" />
     <Proto Include="tensorboard\tensorboard.proto" />
   </ItemGroup>
   <Target Name="ProtoGen" Inputs="@(Proto)" Outputs="@(Proto->'%(RelativeDir)%(Filename).pb.cc')">
