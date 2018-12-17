@@ -151,9 +151,11 @@
       </Command>
     </PostBuildEvent>
     <ClCompile>
+      <PreprocessorDefinitions>IsUWP;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release_UWP|x64'">$(IntDir)\$(ProjectName)\$(ConfigurationName)\%(RelativeDir)</ObjectFileName>
     </ClCompile>
     <ClCompile>
+      <PreprocessorDefinitions>IsUWP;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug_UWP|x64'">$(IntDir)\$(ProjectName)\$(ConfigurationName)\%(RelativeDir)</ObjectFileName>
     </ClCompile>
   </ItemDefinitionGroup>
