@@ -1703,13 +1703,13 @@ BUILD_CONFIGURATION := Makefile $(BUILD_TOP)/Config.make
 	@echo $(SEPARATOR)
 	@echo compiling protobuf $<
 	# protoc is confused if --proto_path is not set to an absolute path in below usage
-	$(PROTOC) --proto_path=$(SOURCEDIR)/CNTKv2LibraryDll/proto/onnx/onnx_repo/ --cpp_out=$(dir $<).. $<
+	$(PROTOC) --proto_path=$(SOURCEDIR)/CNTKv2LibraryDll/proto/onnx/onnxruntime/onnxruntime/core/protobuf/ --cpp_out=$(dir $<).. $<
 
 %onnx-operators-ml.pb.cc : %onnx-operators-ml.proto $(BUILD_CONFIGURATION)
 	@echo $(SEPARATOR)
 	@echo compiling protobuf $<
 	# protoc is confused if --proto_path is not set to an absolute path in below usage
-	$(PROTOC) --proto_path=$(SOURCEDIR)/CNTKv2LibraryDll/proto/onnx/onnx_repo/ --cpp_out=$(dir $<).. $<
+	$(PROTOC) --proto_path=$(SOURCEDIR)/CNTKv2LibraryDll/proto/onnx/onnxruntime/onnxruntime/core/protobuf/ --cpp_out=$(dir $<).. $<
 
 %.pb.cc : %.proto $(BUILD_CONFIGURATION)
 	@echo $(SEPARATOR)
