@@ -281,9 +281,9 @@
     <ClCompile Include="proto\onnx\onnxruntime\onnxruntime\core\graph\schema_registry.cc" />
     <ClCompile Include="proto\onnx\onnxruntime\onnxruntime\core\platform\env.cc" />
     <ClCompile Include="proto\onnx\onnxruntime\onnxruntime\core\platform\env_time.cc" />
-    <ClCompile Include="proto\onnx\onnxruntime\onnxruntime\core\platform\windows\env.cc" />
-    <ClCompile Include="proto\onnx\onnxruntime\onnxruntime\core\platform\windows\env_time.cc" />
-    <ClCompile Include="proto\onnx\onnxruntime\onnxruntime\core\platform\windows\stacktrace.cc" />
+    <ClCompile Include="proto\onnx\patch\onnxruntime\core\platform\windows\env.cc" />
+    <ClCompile Include="proto\onnx\patch\onnxruntime\core\platform\windows\env_time.cc" />
+    <ClCompile Include="proto\onnx\patch\onnxruntime\core\platform\windows\stacktrace.cc" />
     <ClCompile Include="proto\onnx\onnx-ml.pb.cc.VS_wrapper.cpp" />
     <ClCompile Include="proto\onnx\onnx-operators-ml.pb.cc.VS_wrapper.cpp" />
     <ClCompile Include="proto\onnx\ONNX.cpp" />
