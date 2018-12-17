@@ -149,4 +149,10 @@ std::string CaptureStackTrace::Lookup(void* address_in) const {
 }  // namespace detail
 }  // namespace onnxruntime
 
+#else
+namespace onnxruntime {
+std::vector<std::string> GetStackTrace() {
+  return {};
+}
+}  // namespace onnxruntime
 #endif
